@@ -1,0 +1,112 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+}
+
+.font-imag{
+    background-image: url("images/belle1.jpg");
+    font-size: 18px;
+    height: 380px;
+    display: flex;
+}
+
+.bel{
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bel > div {
+    padding: 10px 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.fex-contai{
+    display: flex;
+    width: 60%px;
+    margin: 0px auto;
+    padding: 50px;
+    flex-direction:inherit;
+    justify-content: center;
+}
+
+.fex-contai > div {
+    width: 200px;
+    padding: 10px 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.imp{
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+}
+
+.envoi{
+    padding: 10px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 233);
+    color: white;
+    margin: 5px;
+}
+
+h2{
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    padding: 7px 20px;
+}
+
+button{
+    color: white;
+    padding: 0px;
+    background-color: rgb(75, 75, 233);
+    border-radius: 10px;
+}
+
+.spa-pa{
+    line-height: 20px;
+}
+
+.header{
+    height: 70px;
+}
+
+.log, .menu {
+    position: relative;
+}
+
+.log > h5 {
+    position: absolute;
+}
+
+.menu > input {
+    position: absolute;
+    left: 1000px;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
